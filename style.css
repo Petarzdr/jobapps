@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #1F1F31;
+    --gray-color: #cacaca;
+    --white-color: #FFFFFF; 
+}
+.body {
+    font-family: 'Poppins';
+}
+
+.background {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-color);
+    flex-direction: column;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-container h2 {
+    margin: 0;
+    margin-right: 200px; 
+}
+
+.title-container .positions {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: column; 
+}
+
+.jobapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px; 
+    padding: 15px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+.job-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.jobapp h3 {
+    margin: 0;
+    margin-right: 15px; 
+}
+
+.jobapp span {
+    margin-right: 10px;
+}
+
+.jobapp .location {
+    display: block;
+}
+
+.jobapp .more {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.jobapp .more i {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
