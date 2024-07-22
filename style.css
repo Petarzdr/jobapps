@@ -27,11 +27,13 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    font-family: 'Poppins';
 }
 
 .title-container h2 {
     margin: 0;
-    margin-right: 200px; 
+    margin-right: 200px;
+    font-family: 'Poppins';
 }
 
 .title-container .positions {
@@ -40,6 +42,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    font-family: 'Poppins';
 }
 
 .job-list {
@@ -56,26 +59,39 @@
     border: 1px solid #ddd; 
     border-radius: 8px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    background-color: #fff; 
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    font-family: 'Poppins';
+}
+
+.jobapp:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .job-info {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+}
+
+.job-info span {
+    margin-left: 10px; 
+}
+
+.job-location {
+    display: flex;
+    align-items: center;
+}
+
+.job-location .location {
+    margin-right: 10px; 
+    font-family: 'Poppins', sans-serif; 
 }
 
 .jobapp h3 {
     margin: 0;
     margin-right: 15px; 
-}
-
-.jobapp span {
-    margin-right: 10px;
-}
-
-.jobapp .location {
-    display: block;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .jobapp .more {
@@ -91,7 +107,17 @@
     margin-left: 5px;
 }
 
-
+.tooltip {
+    position: absolute;
+    display: none;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 1000;
+}
 
 
 
